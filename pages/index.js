@@ -10,8 +10,8 @@ const Home = ({products, bannerData}) => {
  
 
       <div className="products-heading">
-        <h2>Best selling Products</h2>
-        <p>Speaker of many variations</p>
+        <h2>Best Selling Delicacies</h2>
+        <p>Nigerian Delicacies</p>
         </div>
 
         <div className='products-container'>
