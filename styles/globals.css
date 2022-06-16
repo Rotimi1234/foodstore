@@ -630,15 +630,33 @@ margin-top: 160px;
     height: 56%
   }
 }
-@media screen and (min-width:624px) {
+@media screen and (min-width:620px) {
   .footer-banner-image{
     width: 77%;
     left: 10%;
     top: 50%;
     height: 56%
   }
+  .cart-container{
+    width: 300px;
+  padding: 4px;
+  }
+}
+@media screen and (min-width:630px) {
+  
+  .cart-container{
+    width: 300px;
+  padding: 4px;
+  }
 }
 
+@media screen and (min-width:800px) {
+  
+  .cart-container{
+    width: 300px;
+  padding: 4px;
+  }
+}
 @media screen and (min-width:800px) {
   .footer-banner-image{
     width: 50%;
@@ -662,7 +680,69 @@ margin-top: 160px;
     width: 140px;
     height: 140px;
   }
+
+  .cart-container{
+    width: 340px;
+  padding: 4px;
+  }
 }
+
+@media screen and (min-width:250px) {
+ 
+
+  .cart-container{
+    width: 130%;
+    height: 130vh;
+  padding: 4px;
+  }
+}
+@media screen and (min-width:281px) {
+ 
+
+  .cart-container{
+    width: 110%;
+    height: 110vh;
+  padding: 4px;
+  }
+}
+
+@media screen and (min-width:370px) {
+ 
+
+  .cart-container{
+    width: 90%;
+    height: 100vh;
+  padding: 4px;
+  }
+}
+
+
+@media screen and (min-width:700px) {
+ 
+
+  .cart-container{
+    width: 70%;
+    height: 100vh;
+  padding: 4px;
+  }
+}
+
+
+@media screen and (min-width:1000px) {
+ 
+
+  .cart-container{
+    width: 60%;
+    height: 100vh;
+  padding: 4px;
+  }
+}
+
+
+
+
+
+
 @media screen and (min-width:430px) {
   .hero-banner-image{
     position: absolute;
@@ -781,10 +861,6 @@ margin-top: 160px;
   .product-detail-container .product-detail-image{
     width: 350px;
     height: 350px;
-  }
-  .cart-container{
-    width: 415px;
-  padding: 4px;
   }
   .cart-heading{
     margin-top: 35px;
