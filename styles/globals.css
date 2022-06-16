@@ -153,7 +153,23 @@ width: 100%;
   cursor: pointer;
   z-index:10000 !important;
 }
-
+.but{
+  border-radius: 15px;
+ padding: 10px 16px;
+ background-color: #f02d34;
+ color: white;
+ border: none;
+ margin-top: -20px;
+ font-size: 18px;
+ font-weight: 500;
+ cursor: pointer;
+ z-index:10000 !important;
+ justify-content: space-evenly;
+}
+.bu{
+  justify-content: space-evenly;
+  display: flex;
+}
 .hero-banner-container h3{
   font-size: 4rem;
   margin-top: 4px;

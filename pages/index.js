@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { client } from '../lib/client'
 
 import {Product, FooterBanner, HeroBanner} from '../components'
@@ -10,9 +11,28 @@ const Home = ({products, bannerData}) => {
  
 
       <div className="products-heading">
-        <h2>Best selling Foods</h2>
-        <p>Nigerian Delicacies</p>
+        <h2>Best selling Products</h2>
+        <p>Speaker of many variations</p>
+        <h1>Choose your Category</h1>
         </div>
+    <div className='bu'>
+        <Link href={`/rice`}>
+            <button className="but" type='button'>Rice
+            </button>
+          </Link>
+          <Link href={`/swallow`}>
+            <button className="but" type='button'>Swallow
+            </button>
+          </Link>
+          <Link href={`/beverages`}>
+            <button className="but" type='button'>Beverages
+            </button>
+          </Link>
+          <Link href={`/vegetables`}>
+            <button className="but" type='button'>Vegetables
+            </button>
+          </Link>
+          </div>
 
         <div className='products-container'>
           {products?.map((product) => <Product key={product._id} product={product} />)}

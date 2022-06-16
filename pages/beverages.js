@@ -10,12 +10,12 @@ const Home = ({products, bannerData}) => {
  
 
       <div className="products-heading">
-        <h2>Vegetable and Soups</h2>
+        <h2>Beverages</h2>
         </div>
 
         <div className='products-container'>
         {
-        products.filter(product => product.typeoffood=== "vegetable").map
+        products.filter(product => product.typeoffood=== "beverages").map
         ((product) => <Product key={product._id} product={product} />)}
 
 
