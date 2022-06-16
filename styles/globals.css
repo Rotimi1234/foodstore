@@ -689,6 +689,11 @@ margin-top: 160px;
 
 @media screen and (min-width:250px) {
  
+  .layout{
+   
+    margin-right: -90px;
+    
+    }
 
   .cart-container{
     width: 130%;
