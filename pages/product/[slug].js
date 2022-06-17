@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link'
 import {client, urlFor} from '../../lib/client'
 import { Product } from '../../components';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
@@ -17,6 +18,26 @@ const ProductDetails = ({ product, products }) => {
   return (
     
     <div>
+
+<div className='bu'>
+        <Link href={`/rice`}>
+            <button className="but" type='button'>Rice
+            </button>
+          </Link>
+          <Link href={`/swallow`}>
+            <button className="but" type='button'>Swallow
+            </button>
+          </Link>
+          <Link href={`/beverages`}>
+            <button className="but" type='button'>Beverages
+            </button>
+          </Link>
+          <Link href={`/vegetables`}>
+            <button className="but" type='button'>Vegetables
+            </button>
+          </Link>
+    </div>
+
       <div className="product-detail-container">
         <div>
           <div className="image-container">
