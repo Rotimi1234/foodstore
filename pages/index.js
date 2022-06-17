@@ -14,6 +14,7 @@ const Home = ({products, bannerData}) => {
         <h2>Best selling Products</h2>
         <p>Speaker of many variations</p>
         <h1>Choose your Category</h1>
+        <p>Can`t find your combo? Click on your choice of Category and add to cart yourself</p>
         </div>
     <div className='bu'>
         <Link href={`/rice`}>
